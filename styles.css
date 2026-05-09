@@ -1,0 +1,39 @@
+body {
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.473), rgba(255, 255, 255, 0.90), rgb(255, 255, 255)), url(14.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: bottom;
+    background-color: rgb(160, 153, 141);
+    color: rgb(49, 44, 44);
+    padding: 2em 2em 0 2em;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(51, 28, 6);
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(51, 28, 6);
+    margin-bottom: -0.5em;
+}
+
+p, li {
+    font-size: 14px;
+}
+
+li {
+    margin-left: -1.5em;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+.details {
+    font-size: 11px;
+    margin-top: -1.5em;
+    margin-bottom: 2em;
+}
