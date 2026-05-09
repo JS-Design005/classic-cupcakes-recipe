@@ -7,7 +7,7 @@ Thank you for taking the time to see my project! This recipe website is a folio 
 I have used my own photography for this project. The photography is not free for commercial use, if you need free photography, I recomend going to Pexels.com. If you are interested in hiring me as a photographer, I would be delighted to hear from you!
 
 ## Attribution
-Honestly, I am not much of a cook myself! I have borrowed a recipie for this project, and I got it from [website](www.jdjdjdjd). Thank you to () for this recipie.
+Honestly, I am not much of a cook myself! Recipe adapted from [Taste](https://www.taste.com.au/recipes/classic-cupcakes/85286555-6ff1-40cc-a7aa-c8e63cb17933)
 
 ## Skills Learnt  
 - **HTML:** Semantic Structure & Lists.
