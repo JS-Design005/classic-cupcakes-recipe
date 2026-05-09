@@ -24,16 +24,56 @@ p, li {
     font-size: 14px;
 }
 
-li {
-    margin-left: -1.5em;
+ul li {
+   margin-left: -20px;
 }
 
 ol li {
     margin-bottom: 10px;
+    list-style-position: inside; 
+}
+
+small {
+    font-size: 10px;
+    color: rgba(39, 35, 35, 0.7);
+}
+
+.allergen-advice {
+    border: dotted 2px rgba(51, 28, 6, 0.651);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 1em 0;
+}
+
+.allergen-advice p {
+    margin-top: 0.5em;
+    margin-bottom: 0;
+}
+
+.allergen-advice p, .allergen-advice b {
+    font-size: 14px;
 }
 
 .details {
     font-size: 11px;
     margin-top: -1.5em;
     margin-bottom: 2em;
+}
+
+.steps-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  scroll-snap-type: x proximity;
+  padding: 0px;
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+}
+
+.step-card {
+  flex: 0 0 75%; /* Shows 85% of the card so the next one is slightly visible */
+  scroll-snap-align: center;
+
+  background: rgba(255, 255, 255, 0.4); /* Semi-transparent to show your background */
+  padding: 20px;
+  border-radius: 15px;
 }
